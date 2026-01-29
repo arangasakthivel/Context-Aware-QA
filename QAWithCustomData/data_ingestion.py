@@ -13,8 +13,6 @@ from docx import Document as DocxDocument
 import pandas as pd
 from bs4 import BeautifulSoup
 
-from pdf2image import convert_from_bytes
-import pytesseract
 
 
 # -------------------- TEXT NORMALIZATION --------------------
@@ -33,41 +31,41 @@ def is_garbled_text(text: str, threshold: float = 0.25) -> bool:
 
 
 # -------------------- OCR IMAGE PREPROCESSING --------------------
-def preprocess_image_for_ocr(pil_image):
-    image = np.array(pil_image)
-    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+# def preprocess_image_for_ocr(pil_image):
+#     image = np.array(pil_image)
+#     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
-    # Adaptive thresholding improves scanned PDFs a LOT
-    thresh = cv2.adaptiveThreshold(
-        gray,
-        255,
-        cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
-        cv2.THRESH_BINARY,
-        31,
-        2,
-    )
+#     # Adaptive thresholding improves scanned PDFs a LOT
+#     thresh = cv2.adaptiveThreshold(
+#         gray,
+#         255,
+#         cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
+#         cv2.THRESH_BINARY,
+#         31,
+#         2,
+#     )
 
-    # Denoise
-    denoised = cv2.medianBlur(thresh, 3)
-    return denoised
+#     # Denoise
+#     denoised = cv2.medianBlur(thresh, 3)
+#     return denoised
 
 
-# -------------------- OCR EXTRACTION --------------------
-def extract_text_with_ocr(uploaded_file):
-    images = convert_from_bytes(uploaded_file.read(), dpi=300)
-    text = ""
+# # -------------------- OCR EXTRACTION --------------------
+# def extract_text_with_ocr(uploaded_file):
+#     images = convert_from_bytes(uploaded_file.read(), dpi=300)
+#     text = ""
 
-    custom_config = r"--oem 3 --psm 6"
+#     custom_config = r"--oem 3 --psm 6"
 
-    for img in images:
-        processed = preprocess_image_for_ocr(img)
-        text += pytesseract.image_to_string(
-            processed,
-            lang="eng",
-            config=custom_config
-        ) + "\n"
+#     for img in images:
+#         processed = preprocess_image_for_ocr(img)
+#         text += pytesseract.image_to_string(
+#             processed,
+#             lang="eng",
+#             config=custom_config
+#         ) + "\n"
 
-    return normalize_text(text)
+#     return normalize_text(text)
 
 
 # -------------------- PDF EXTRACTION --------------------
@@ -82,10 +80,10 @@ def extract_text_from_pdf(uploaded_file):
                 text += page_text + "\n"
 
         # OCR fallback
-        if is_garbled_text(text):
-            logging.info("PDF appears scanned or garbled → using OCR")
-            uploaded_file.seek(0)
-            text = extract_text_with_ocr(uploaded_file)
+        # if is_garbled_text(text):
+        #     logging.info("PDF appears scanned or garbled → using OCR")
+        #     uploaded_file.seek(0)
+        #     text = extract_text_with_ocr(uploaded_file)
 
         return normalize_text(text)
 
