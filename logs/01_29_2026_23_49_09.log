@@ -1,0 +1,282 @@
+[2026-01-29 23:49:25,537] 96 root - INFO - Starting data ingestion...
+[2026-01-29 23:49:25,538] 105 root - INFO - PDF file detected
+[2026-01-29 23:49:25,617] 142 root - INFO - Document successfully loaded and wrapped.
+[2026-01-29 23:49:25,617] 31 root - INFO - Loading Gemini LLM...
+[2026-01-29 23:49:26,547] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-29 23:49:26,547] 16 root - INFO - Initializing Gemini embedding model
+[2026-01-29 23:49:26,694] 35 root - INFO - Creating vector index
+[2026-01-29 23:49:32,383] 41 root - INFO - Creating query engine
+[2026-01-29 23:49:49,286] 96 root - INFO - Starting data ingestion...
+[2026-01-29 23:49:49,288] 105 root - INFO - PDF file detected
+[2026-01-29 23:49:49,682] 142 root - INFO - Document successfully loaded and wrapped.
+[2026-01-29 23:49:49,682] 31 root - INFO - Loading Gemini LLM...
+[2026-01-29 23:49:50,477] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-29 23:49:50,477] 16 root - INFO - Initializing Gemini embedding model
+[2026-01-29 23:49:50,482] 35 root - INFO - Creating vector index
+[2026-01-29 23:49:53,993] 41 root - INFO - Creating query engine
+[2026-01-29 23:52:26,636] 96 root - INFO - Starting data ingestion...
+[2026-01-29 23:52:26,637] 105 root - INFO - PDF file detected
+[2026-01-29 23:52:27,013] 142 root - INFO - Document successfully loaded and wrapped.
+[2026-01-29 23:52:27,013] 31 root - INFO - Loading Gemini LLM...
+[2026-01-29 23:52:27,934] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-29 23:52:27,935] 16 root - INFO - Initializing Gemini embedding model
+[2026-01-29 23:52:27,938] 35 root - INFO - Creating vector index
+[2026-01-29 23:52:31,402] 41 root - INFO - Creating query engine
+[2026-01-29 23:55:37,516] 103 root - INFO - Starting data ingestion...
+[2026-01-29 23:55:37,518] 113 root - INFO - PDF file detected
+[2026-01-29 23:55:37,894] 153 root - INFO - Document successfully loaded and wrapped.
+[2026-01-29 23:55:37,895] 31 root - INFO - Loading Gemini LLM...
+[2026-01-29 23:55:38,640] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-29 23:55:38,640] 16 root - INFO - Initializing Gemini embedding model
+[2026-01-29 23:55:38,644] 35 root - INFO - Creating vector index
+[2026-01-29 23:55:41,802] 41 root - INFO - Creating query engine
+[2026-01-29 23:58:17,089] 103 root - INFO - Starting data ingestion...
+[2026-01-29 23:58:17,090] 113 root - INFO - PDF file detected
+[2026-01-29 23:58:17,467] 153 root - INFO - Document successfully loaded and wrapped.
+[2026-01-29 23:58:17,468] 31 root - INFO - Loading Gemini LLM...
+[2026-01-29 23:58:18,603] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-29 23:58:18,603] 16 root - INFO - Initializing Gemini embedding model
+[2026-01-29 23:58:18,606] 35 root - INFO - Creating vector index
+[2026-01-29 23:58:21,999] 41 root - INFO - Creating query engine
+[2026-01-30 00:01:38,695] 103 root - INFO - Starting data ingestion...
+[2026-01-30 00:01:38,696] 113 root - INFO - PDF file detected
+[2026-01-30 00:01:39,080] 153 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 00:01:39,080] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 00:01:39,877] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 00:01:39,878] 16 root - INFO - Initializing Gemini embedding model
+[2026-01-30 00:01:39,882] 35 root - INFO - Creating vector index
+[2026-01-30 00:01:43,237] 41 root - INFO - Creating query engine
+[2026-01-30 00:07:49,400] 103 root - INFO - Starting data ingestion...
+[2026-01-30 00:07:49,402] 113 root - INFO - PDF file detected
+[2026-01-30 00:07:49,758] 153 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 00:07:49,758] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 00:07:50,638] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 00:07:50,638] 16 root - INFO - Initializing Gemini embedding model
+[2026-01-30 00:07:50,642] 35 root - INFO - Creating vector index
+[2026-01-30 00:07:53,986] 41 root - INFO - Creating query engine
+[2026-01-30 00:08:39,463] 103 root - INFO - Starting data ingestion...
+[2026-01-30 00:08:39,463] 113 root - INFO - PDF file detected
+[2026-01-30 00:08:39,818] 153 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 00:08:39,818] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 00:08:40,554] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 00:08:40,555] 16 root - INFO - Initializing Gemini embedding model
+[2026-01-30 00:08:40,559] 35 root - INFO - Creating vector index
+[2026-01-30 00:08:43,861] 41 root - INFO - Creating query engine
+[2026-01-30 00:09:16,682] 103 root - INFO - Starting data ingestion...
+[2026-01-30 00:09:16,683] 113 root - INFO - PDF file detected
+[2026-01-30 00:09:16,777] 153 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 00:09:16,777] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 00:09:17,603] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 00:09:17,603] 16 root - INFO - Initializing Gemini embedding model
+[2026-01-30 00:09:17,607] 35 root - INFO - Creating vector index
+[2026-01-30 00:09:18,940] 41 root - INFO - Creating query engine
+[2026-01-30 00:18:18,149] 103 root - INFO - Starting data ingestion...
+[2026-01-30 00:18:18,152] 113 root - INFO - PDF file detected
+[2026-01-30 00:18:18,541] 153 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 00:18:18,541] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 00:18:19,364] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 00:18:19,364] 16 root - INFO - Initializing Gemini embedding model
+[2026-01-30 00:18:19,367] 35 root - INFO - Creating vector index
+[2026-01-30 00:18:22,655] 41 root - INFO - Creating query engine
+[2026-01-30 00:23:02,554] 103 root - INFO - Starting data ingestion...
+[2026-01-30 00:23:02,555] 113 root - INFO - PDF file detected
+[2026-01-30 00:23:02,909] 153 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 00:23:02,909] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 00:23:03,677] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 00:23:03,677] 16 root - INFO - Initializing Gemini embedding model
+[2026-01-30 00:23:03,682] 35 root - INFO - Creating vector index
+[2026-01-30 00:23:06,887] 41 root - INFO - Creating query engine
+[2026-01-30 00:24:19,477] 103 root - INFO - Starting data ingestion...
+[2026-01-30 00:24:19,478] 113 root - INFO - PDF file detected
+[2026-01-30 00:24:19,839] 153 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 00:24:19,839] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 00:24:20,575] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 00:24:59,909] 103 root - INFO - Starting data ingestion...
+[2026-01-30 00:24:59,910] 113 root - INFO - PDF file detected
+[2026-01-30 00:25:00,004] 153 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 00:25:00,004] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 00:25:00,786] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 00:27:14,742] 103 root - INFO - Starting data ingestion...
+[2026-01-30 00:27:14,743] 113 root - INFO - PDF file detected
+[2026-01-30 00:27:15,096] 153 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 00:27:15,096] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 00:27:15,978] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 00:27:15,978] 37 root - INFO - Initializing Gemini embedding model
+[2026-01-30 00:27:15,983] 56 root - INFO - Creating vector index
+[2026-01-30 00:27:19,332] 62 root - INFO - Creating query engine
+[2026-01-30 00:29:06,006] 103 root - INFO - Starting data ingestion...
+[2026-01-30 00:29:06,007] 113 root - INFO - PDF file detected
+[2026-01-30 00:29:06,355] 153 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 00:29:06,355] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 00:29:07,116] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 00:29:07,117] 37 root - INFO - Initializing Gemini embedding model
+[2026-01-30 00:29:07,120] 56 root - INFO - Creating vector index
+[2026-01-30 00:29:10,360] 62 root - INFO - Creating query engine
+[2026-01-30 00:35:51,602] 103 root - INFO - Starting data ingestion...
+[2026-01-30 00:35:51,603] 113 root - INFO - PDF file detected
+[2026-01-30 00:35:51,963] 153 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 00:35:51,963] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 00:35:52,861] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 00:35:52,863] 39 root - INFO - Initializing Gemini embedding model
+[2026-01-30 00:35:52,867] 58 root - INFO - Creating vector index
+[2026-01-30 00:35:57,078] 64 root - INFO - Creating query engine
+[2026-01-30 00:36:29,106] 103 root - INFO - Starting data ingestion...
+[2026-01-30 00:36:29,106] 113 root - INFO - PDF file detected
+[2026-01-30 00:36:29,168] 153 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 00:36:29,168] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 00:36:30,005] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 00:36:30,006] 39 root - INFO - Initializing Gemini embedding model
+[2026-01-30 00:36:30,010] 58 root - INFO - Creating vector index
+[2026-01-30 00:36:31,981] 64 root - INFO - Creating query engine
+[2026-01-30 00:46:08,675] 104 root - INFO - Starting data ingestion...
+[2026-01-30 00:46:08,676] 114 root - INFO - PDF file detected
+[2026-01-30 00:46:08,747] 162 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 00:46:08,747] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 00:46:14,592] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 00:46:14,592] 39 root - INFO - Initializing Gemini embedding model
+[2026-01-30 00:46:14,596] 53 root - INFO - Creating vector index
+[2026-01-30 00:46:19,993] 59 root - INFO - Creating query engine
+[2026-01-30 00:47:52,485] 104 root - INFO - Starting data ingestion...
+[2026-01-30 00:47:52,486] 114 root - INFO - PDF file detected
+[2026-01-30 00:47:52,567] 162 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 00:47:52,567] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 00:47:58,758] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 00:47:58,758] 21 root - INFO - Initializing Gemini embedding model
+[2026-01-30 00:47:58,761] 35 root - INFO - Creating vector index
+[2026-01-30 00:48:07,096] 41 root - INFO - Creating query engine
+[2026-01-30 00:49:09,149] 104 root - INFO - Starting data ingestion...
+[2026-01-30 00:49:09,150] 114 root - INFO - PDF file detected
+[2026-01-30 00:49:09,504] 162 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 00:49:09,504] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 00:49:10,072] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 00:49:10,072] 37 root - INFO - Initializing Gemini embedding model
+[2026-01-30 00:49:10,077] 51 root - INFO - Creating vector index
+[2026-01-30 00:49:16,157] 57 root - INFO - Creating query engine
+[2026-01-30 00:49:59,111] 104 root - INFO - Starting data ingestion...
+[2026-01-30 00:49:59,111] 114 root - INFO - PDF file detected
+[2026-01-30 00:49:59,464] 162 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 00:49:59,464] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 00:50:00,249] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 00:50:00,250] 37 root - INFO - Initializing Gemini embedding model
+[2026-01-30 00:50:00,254] 51 root - INFO - Creating vector index
+[2026-01-30 00:50:04,168] 57 root - INFO - Creating query engine
+[2026-01-30 00:50:22,334] 104 root - INFO - Starting data ingestion...
+[2026-01-30 00:50:22,334] 114 root - INFO - PDF file detected
+[2026-01-30 00:50:22,682] 162 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 00:50:22,682] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 00:50:23,117] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 00:50:23,117] 37 root - INFO - Initializing Gemini embedding model
+[2026-01-30 00:50:23,121] 51 root - INFO - Creating vector index
+[2026-01-30 00:50:26,646] 57 root - INFO - Creating query engine
+[2026-01-30 00:51:03,203] 104 root - INFO - Starting data ingestion...
+[2026-01-30 00:51:03,204] 114 root - INFO - PDF file detected
+[2026-01-30 00:51:03,592] 162 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 00:51:03,592] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 00:51:04,210] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 00:51:04,211] 37 root - INFO - Initializing Gemini embedding model
+[2026-01-30 00:51:04,214] 51 root - INFO - Creating vector index
+[2026-01-30 00:51:07,839] 57 root - INFO - Creating query engine
+[2026-01-30 00:51:29,198] 104 root - INFO - Starting data ingestion...
+[2026-01-30 00:51:29,199] 114 root - INFO - PDF file detected
+[2026-01-30 00:51:29,588] 162 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 00:51:29,588] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 00:51:30,335] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 00:51:30,335] 37 root - INFO - Initializing Gemini embedding model
+[2026-01-30 00:51:30,338] 51 root - INFO - Creating vector index
+[2026-01-30 00:51:33,541] 57 root - INFO - Creating query engine
+[2026-01-30 00:53:43,008] 104 root - INFO - Starting data ingestion...
+[2026-01-30 00:53:43,010] 114 root - INFO - PDF file detected
+[2026-01-30 00:53:43,216] 162 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 00:53:43,216] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 00:53:43,945] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 00:53:43,946] 37 root - INFO - Initializing Gemini embedding model
+[2026-01-30 00:53:43,949] 51 root - INFO - Creating vector index
+[2026-01-30 00:53:50,163] 57 root - INFO - Creating query engine
+[2026-01-30 00:55:09,052] 104 root - INFO - Starting data ingestion...
+[2026-01-30 00:55:09,053] 114 root - INFO - PDF file detected
+[2026-01-30 00:55:09,129] 162 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 00:55:09,129] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 00:55:09,496] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 00:55:09,496] 37 root - INFO - Initializing Gemini embedding model
+[2026-01-30 00:55:09,500] 51 root - INFO - Creating vector index
+[2026-01-30 00:55:16,369] 57 root - INFO - Creating query engine
+[2026-01-30 00:56:02,451] 104 root - INFO - Starting data ingestion...
+[2026-01-30 00:56:02,452] 114 root - INFO - PDF file detected
+[2026-01-30 00:56:02,515] 162 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 00:56:02,515] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 00:56:03,217] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 00:56:03,217] 37 root - INFO - Initializing Gemini embedding model
+[2026-01-30 00:56:03,221] 51 root - INFO - Creating vector index
+[2026-01-30 00:56:09,411] 57 root - INFO - Creating query engine
+[2026-01-30 00:57:55,519] 104 root - INFO - Starting data ingestion...
+[2026-01-30 00:57:55,520] 114 root - INFO - PDF file detected
+[2026-01-30 00:57:55,586] 162 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 00:57:55,586] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 00:57:56,121] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 00:57:56,121] 37 root - INFO - Initializing Gemini embedding model
+[2026-01-30 00:57:56,125] 51 root - INFO - Creating vector index
+[2026-01-30 00:57:57,547] 57 root - INFO - Creating query engine
+[2026-01-30 00:58:33,646] 104 root - INFO - Starting data ingestion...
+[2026-01-30 00:58:33,647] 114 root - INFO - PDF file detected
+[2026-01-30 00:58:34,031] 162 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 00:58:34,031] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 00:58:34,627] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 00:58:34,628] 37 root - INFO - Initializing Gemini embedding model
+[2026-01-30 00:58:34,630] 51 root - INFO - Creating vector index
+[2026-01-30 00:58:38,238] 57 root - INFO - Creating query engine
+[2026-01-30 00:59:14,484] 104 root - INFO - Starting data ingestion...
+[2026-01-30 00:59:14,485] 114 root - INFO - PDF file detected
+[2026-01-30 00:59:14,590] 162 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 00:59:14,591] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 00:59:14,997] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 00:59:14,997] 37 root - INFO - Initializing Gemini embedding model
+[2026-01-30 00:59:15,000] 51 root - INFO - Creating vector index
+[2026-01-30 00:59:16,118] 57 root - INFO - Creating query engine
+[2026-01-30 00:59:52,884] 104 root - INFO - Starting data ingestion...
+[2026-01-30 00:59:52,884] 114 root - INFO - PDF file detected
+[2026-01-30 00:59:53,006] 162 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 00:59:53,006] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 00:59:53,505] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 00:59:53,506] 37 root - INFO - Initializing Gemini embedding model
+[2026-01-30 00:59:53,509] 51 root - INFO - Creating vector index
+[2026-01-30 00:59:55,912] 57 root - INFO - Creating query engine
+[2026-01-30 01:05:27,185] 104 root - INFO - Starting data ingestion...
+[2026-01-30 01:05:27,186] 114 root - INFO - PDF file detected
+[2026-01-30 01:05:27,302] 162 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 01:05:27,302] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 01:05:27,994] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 01:05:27,994] 37 root - INFO - Initializing Gemini embedding model
+[2026-01-30 01:05:27,997] 52 root - INFO - Creating vector index
+[2026-01-30 01:05:30,366] 58 root - INFO - Creating query engine
+[2026-01-30 01:05:51,065] 104 root - INFO - Starting data ingestion...
+[2026-01-30 01:05:51,066] 114 root - INFO - PDF file detected
+[2026-01-30 01:05:51,187] 162 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 01:05:51,187] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 01:05:51,933] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 01:05:51,933] 37 root - INFO - Initializing Gemini embedding model
+[2026-01-30 01:05:51,936] 52 root - INFO - Creating vector index
+[2026-01-30 01:05:54,566] 58 root - INFO - Creating query engine
+[2026-01-30 01:06:45,248] 104 root - INFO - Starting data ingestion...
+[2026-01-30 01:06:45,249] 114 root - INFO - PDF file detected
+[2026-01-30 01:06:45,524] 162 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 01:06:45,524] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 01:06:46,206] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 01:06:46,206] 37 root - INFO - Initializing Gemini embedding model
+[2026-01-30 01:06:46,209] 52 root - INFO - Creating vector index
+[2026-01-30 01:06:50,516] 58 root - INFO - Creating query engine
+[2026-01-30 01:07:57,545] 104 root - INFO - Starting data ingestion...
+[2026-01-30 01:07:57,546] 114 root - INFO - PDF file detected
+[2026-01-30 01:07:57,660] 162 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 01:07:57,660] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 01:07:58,274] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 01:07:58,275] 37 root - INFO - Initializing Gemini embedding model
+[2026-01-30 01:07:58,278] 47 root - INFO - Creating vector index
+[2026-01-30 01:08:00,826] 53 root - INFO - Creating query engine
+[2026-01-30 01:08:42,100] 104 root - INFO - Starting data ingestion...
+[2026-01-30 01:08:42,101] 114 root - INFO - PDF file detected
+[2026-01-30 01:08:42,175] 162 root - INFO - Document successfully loaded and wrapped.
+[2026-01-30 01:08:42,176] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 01:08:42,723] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 01:08:42,723] 37 root - INFO - Initializing Gemini embedding model
+[2026-01-30 01:08:42,726] 47 root - INFO - Creating vector index
+[2026-01-30 01:08:48,056] 53 root - INFO - Creating query engine

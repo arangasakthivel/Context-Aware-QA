@@ -1,0 +1,10 @@
+setup.py
+QAApplication_LlamaIndex_GoogleGenAI.egg-info/PKG-INFO
+QAApplication_LlamaIndex_GoogleGenAI.egg-info/SOURCES.txt
+QAApplication_LlamaIndex_GoogleGenAI.egg-info/dependency_links.txt
+QAApplication_LlamaIndex_GoogleGenAI.egg-info/requires.txt
+QAApplication_LlamaIndex_GoogleGenAI.egg-info/top_level.txt
+QAWithCustomData/__init__.py
+QAWithCustomData/data_ingestion.py
+QAWithCustomData/embedding.py
+QAWithCustomData/model_api.py

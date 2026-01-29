@@ -1,0 +1,14 @@
+[2026-01-30 01:22:06,876] 119 root - INFO - Starting data ingestion...
+[2026-01-30 01:22:07,485] 165 root - INFO - Document successfully processed
+[2026-01-30 01:22:07,485] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 01:22:09,513] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 01:22:09,513] 37 root - INFO - Initializing Gemini embedding model
+[2026-01-30 01:22:09,515] 47 root - INFO - Creating vector index
+[2026-01-30 01:22:18,956] 53 root - INFO - Creating query engine
+[2026-01-30 01:24:19,913] 119 root - INFO - Starting data ingestion...
+[2026-01-30 01:24:20,299] 165 root - INFO - Document successfully processed
+[2026-01-30 01:24:20,299] 31 root - INFO - Loading Gemini LLM...
+[2026-01-30 01:24:21,745] 42 root - INFO - Gemini LLM loaded successfully
+[2026-01-30 01:24:21,747] 37 root - INFO - Initializing Gemini embedding model
+[2026-01-30 01:24:21,751] 47 root - INFO - Creating vector index
+[2026-01-30 01:24:32,140] 53 root - INFO - Creating query engine

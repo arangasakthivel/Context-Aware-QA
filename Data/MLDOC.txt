@@ -1,0 +1,13 @@
+Machine Learning (ML) is a subset of Artificial Intelligence that enables systems to learn from data and improve performance without being explicitly programmed.
+
+There are three main types of machine learning: supervised learning, unsupervised learning, and reinforcement learning.
+
+Supervised learning uses labeled datasets to train models. Common supervised learning algorithms include linear regression, logistic regression, decision trees, and support vector machines.
+
+Unsupervised learning works with unlabeled data and focuses on identifying patterns or groupings. Popular unsupervised algorithms include k-means clustering and hierarchical clustering.
+
+Reinforcement learning is based on an agent interacting with an environment and learning through rewards and penalties. It is commonly used in robotics and game-playing systems.
+
+Machine learning is widely used in real-world applications such as recommendation systems, image recognition, fraud detection, natural language processing, and autonomous vehicles.
+
+One of the key challenges in machine learning is overfitting, where a model performs well on training data but poorly on unseen data. Techniques like cross-validation and regularization help address this issue.
