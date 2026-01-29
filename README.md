@@ -20,7 +20,6 @@ Built using **LlamaIndex**, **Google Gemini**, and **Streamlit**, with a modern 
   - HTML
 - 🧠 Context-aware answers using vector embeddings
 - 🚫 No hallucinations — answers are generated only from document content
-- 🔍 Automatic OCR fallback for scanned PDFs
 - ✨ Clean, ChatGPT-style conversational UI
 - ☁️ Deployed on Streamlit Cloud
 
@@ -50,7 +49,7 @@ Built using **LlamaIndex**, **Google Gemini**, and **Streamlit**, with a modern 
 - LlamaIndex – document indexing & retrieval  
 - Google Gemini – large language model  
 - Gemini Embeddings – vector representation  
-- PyPDF2 / pdf2image / pytesseract – document parsing & OCR  
+- PyPDF2 / pdf2image / pytesseract – document parsing 
 
 ### Deployment
 - Streamlit Cloud
@@ -76,7 +75,6 @@ Built using **LlamaIndex**, **Google Gemini**, and **Streamlit**, with a modern 
 | File Type           | Method Used                         |
 |--------------------|-------------------------------------|
 | PDF (text-based)   | PyPDF2                              |
-| PDF (scanned)      | OCR (Tesseract + pdf2image)         |
 | TXT                | UTF-8 decoding                      |
 | DOCX               | python-docx                         |
 | CSV                | pandas                              |
@@ -153,7 +151,6 @@ streamlit run StreamlitApp.py
 ## 🔐 Limitations
 
 - Requires internet connectivity for Gemini API
-- OCR accuracy depends on scan quality
 - Very large documents may take longer to process
 
 ---
@@ -169,7 +166,7 @@ streamlit run StreamlitApp.py
 - Multi-document chat support
 - Conversation memory across queries
 - Highlight source paragraphs
-- Multilingual OCR and querying
+- Multilingual and querying
 - Export answers as PDF
 
 ---
