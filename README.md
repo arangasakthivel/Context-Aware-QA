@@ -120,9 +120,71 @@ GOOGLE_API_KEY=your_google_gemini_api_key
 streamlit run StreamlitApp.py
 ```
 
-Once started, open the browser at:
-```
-http://localhost:8501
-```
+## 🧠 How It Works
 
+### Data Ingestion
+- Extracts text from uploaded documents
+- Applies OCR if text is missing or garbled
+- Normalizes and chunks content
+
+### Embedding Generation
+- Each chunk is converted into vector embeddings
+- Stored using LlamaIndex’s vector store
+
+### Query Processing
+- User query is embedded
+- Most relevant document chunks are retrieved
+
+### Response Generation
+- Gemini LLM generates an answer using only retrieved context
+- Output is formatted for readability
+
+---
+
+## 🧪 Example Use Cases
+
+- Academic document summarization
+- Policy or legal document Q&A
+- Project reports & research papers
+- Interview preparation from notes
+- Government forms or scanned PDFs
+
+---
+
+## 🔐 Limitations
+
+- Requires internet connectivity for Gemini API
+- OCR accuracy depends on scan quality
+- Very large documents may take longer to process
+
+---
+
+## 🖼️ Screenshots
+
+📌 *(Insert Streamlit UI screenshots here)*
+
+---
+
+## 📈 Future Enhancements
+
+- Multi-document chat support
+- Conversation memory across queries
+- Highlight source paragraphs
+- Multilingual OCR and querying
+- Export answers as PDF
+
+---
+
+## 👨‍💻 Author
+
+**Aranga Sakthivel R**  
+B.Tech – Information Technology  
+VIT Vellore
+
+---
+
+## 📜 License
+
+This project is intended for **educational and academic use**.  
 You may extend or modify it with proper attribution.
+
