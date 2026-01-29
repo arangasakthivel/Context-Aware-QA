@@ -13,7 +13,7 @@ Built using **LlamaIndex**, **Google Gemini**, and **Streamlit**, with a modern 
 ## 🚀 Features
 
 - 📂 Upload documents in multiple formats:
-  - PDF (including scanned PDFs with OCR)
+  - PDF
   - TXT
   - DOCX
   - CSV
@@ -32,7 +32,7 @@ Built using **LlamaIndex**, **Google Gemini**, and **Streamlit**, with a modern 
 
 **High-level flow:**
 1. User uploads a document  
-2. Text is extracted (OCR if required)  
+2. Text is extracted  
 3. Document is split into semantic chunks  
 4. Vector embeddings are created using Gemini Embeddings  
 5. Query is matched against document vectors  
@@ -124,7 +124,6 @@ streamlit run StreamlitApp.py
 
 ### Data Ingestion
 - Extracts text from uploaded documents
-- Applies OCR if text is missing or garbled
 - Normalizes and chunks content
 
 ### Embedding Generation
