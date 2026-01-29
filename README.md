@@ -82,97 +82,47 @@ Built using **LlamaIndex**, **Google Gemini**, and **Streamlit**, with a modern 
 | CSV                | pandas                              |
 | HTML               | BeautifulSoup                       |
 
-⚙️ Installation & Setup (Local)
-1️⃣ Clone the repository
+## ⚙️ Installation & Setup (Local)
+
+### 1️⃣ Clone the repository
+```bash
 git clone https://github.com/your-username/context-aware-qa.git
 cd context-aware-qa
+```
 
-2️⃣ Create and activate virtual environment
+### 2️⃣ Create and activate a virtual environment
+```bash
 conda create -n qa-app python=3.10
 conda activate qa-app
+```
 
-3️⃣ Install dependencies
+> You can also use `venv` if you prefer:
+```bash
+python -m venv venv
+source venv/bin/activate   # macOS/Linux
+venv\Scripts\activate      # Windows
+```
+
+### 3️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-4️⃣ Set environment variables
+### 4️⃣ Set environment variables
+Create a `.env` file in the root directory:
 
-Create a .env file:
-
+```env
 GOOGLE_API_KEY=your_google_gemini_api_key
+```
 
-5️⃣ Run the application
+### 5️⃣ Run the application
+```bash
 streamlit run StreamlitApp.py
+```
 
-🧠 How It Works
-Data Ingestion
+Once started, open the browser at:
+```
+http://localhost:8501
+```
 
-Extracts text from uploaded documents
-
-Applies OCR if text is missing or garbled
-
-Normalizes and chunks content
-
-Embedding Generation
-
-Each chunk is converted into vector embeddings
-
-Stored using LlamaIndex’s vector store
-
-Query Processing
-
-User query is embedded
-
-Most relevant document chunks are retrieved
-
-Response Generation
-
-Gemini LLM generates an answer using only retrieved context
-
-Output is formatted for readability
-
-🧪 Example Use Cases
-
-Academic document summarization
-
-Policy or legal document Q&A
-
-Project reports & research papers
-
-Interview preparation from notes
-
-Government forms or scanned PDFs
-
-🔐 Limitations
-
-Requires internet connectivity for Gemini API
-
-OCR accuracy depends on scan quality
-
-Very large documents may take longer to process
-
-🖼️ Screenshots
-
-📌 (Insert Streamlit UI screenshots here)
-
-📈 Future Enhancements
-
-Multi-document chat support
-
-Conversation memory across queries
-
-Highlight source paragraphs
-
-Multilingual OCR and querying
-
-Export answers as PDF
-
-👨‍💻 Author
-
-Aranga Sakthivel R
-B.Tech – Information Technology
-VIT Vellore
-
-📜 License
-
-This project is intended for educational and academic use.
 You may extend or modify it with proper attribution.
