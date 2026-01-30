@@ -32,7 +32,7 @@ def load_model():
 
         # ✅ Correct LLM class
         llm = Gemini(
-            model="models/gemini-2.5-pro",
+            model="models/gemini-2.5-flash",
             api_key=GOOGLE_API_KEY
         )
 
