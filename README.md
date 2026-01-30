@@ -10,6 +10,22 @@ Built using **LlamaIndex**, **Google Gemini**, and **Streamlit**, with a modern 
 
 ---
 
+## 🧩 System Architecture
+
+![Adobe Scan 30 Jan 2026_page-0001](https://github.com/user-attachments/assets/0d3abdda-69a3-4836-8633-672790af1a51)
+
+
+**High-level flow:**
+1. User uploads a document  
+2. Text is extracted  
+3. Document is split into semantic chunks  
+4. Vector embeddings are created using Gemini Embeddings  
+5. Query is matched against document vectors  
+6. Gemini LLM generates a context-aware response
+   
+
+---
+
 ## 🚀 Features
 
 - 📂 Upload documents in multiple formats:
@@ -22,20 +38,6 @@ Built using **LlamaIndex**, **Google Gemini**, and **Streamlit**, with a modern 
 - 🚫 No hallucinations — answers are generated only from document content
 - ✨ Clean, ChatGPT-style conversational UI
 - ☁️ Deployed on Streamlit Cloud
-
----
-
-## 🧩 System Architecture
-
-📌 *(Insert architecture diagram image here)*
-
-**High-level flow:**
-1. User uploads a document  
-2. Text is extracted  
-3. Document is split into semantic chunks  
-4. Vector embeddings are created using Gemini Embeddings  
-5. Query is matched against document vectors  
-6. Gemini LLM generates a context-aware response  
 
 ---
 
@@ -157,7 +159,17 @@ streamlit run StreamlitApp.py
 
 ## 🖼️ Screenshots
 
-📌 *(Insert Streamlit UI screenshots here)*
+<img width="1397" height="719" alt="Screenshot 2026-01-30 at 2 32 11 AM" src="https://github.com/user-attachments/assets/5e549d53-b6a3-4516-88ba-9a5a273e9c41" />
+
+
+<img width="1397" height="719" alt="Screenshot 2026-01-30 at 2 33 17 AM" src="https://github.com/user-attachments/assets/a8fe20d1-195e-487b-ba33-1fe543bdd715" />
+
+
+<img width="1397" height="719" alt="Screenshot 2026-01-30 at 2 35 44 AM" src="https://github.com/user-attachments/assets/b3b0ae5e-662f-4735-b7fb-2cc356558f7c" />
+
+
+<img width="1395" height="691" alt="Screenshot 2026-01-30 at 2 36 14 AM" src="https://github.com/user-attachments/assets/ee01435e-38e3-4301-a7f8-0cdf4bed62d5" />
+
 
 ---
 
