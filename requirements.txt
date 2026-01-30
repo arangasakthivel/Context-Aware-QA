@@ -5,10 +5,12 @@ llama-index-embeddings-gemini
 
 python-dotenv
 streamlit
-pytesseract
 PyPDF2
 python-docx
 pandas
 beautifulsoup4
-Pillow
 IPython
+
+pdf2image
+pytesseract
+Pillow
